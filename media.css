@@ -1,0 +1,12 @@
+
+  @media (max-width:400px) {
+    .container li {
+     width: 200px;
+    }
+  } 
+
+  @media only screen and (max-width:400px) {
+    .mainlogo {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,560 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+    background-image: url(../images/ii.webp);
+    overflow: hidden;
+    width: 100%;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.mainlogo {
+    width: 60%;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    size: 21px;
+}
+
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container li {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.main-color {
+    color: darkred;
+    font-size: 25px;
+}
+
+.header-item {
+    color: black;
+    font-size: 25px;
+}
+
+body {
+    background-color: rgb(197, 189, 157);
+}
+
+.mainlogo2 {
+    width: 60%;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.a {
+   margin-right: 50px;
+}
+
+.b {
+  margin-right: 50px;
+}
+
+.c{
+margin-right: 50px;
+}
+
+
+.move {
+    position: relative;
+    animation: mymove 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes mymove {
+    from {top: -160px;}
+    to {top: 20px;}
+  }
+
+
+
+.members img {
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+  }
+
+  .members0 {
+    display: flex;
+    margin-top:70px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+ .title {
+    color: darkred;
+    font-size: xx-large;
+    font: bolder;
+    text-align: center;
+    margin-top: 37px;
+    background-color: rgb(206, 203, 178);
+    width: 100%;
+    height: 40px;
+ }
+
+
+.content li {
+    text-align: center;
+ }
+
+.content span {
+    text-align: center;
+    display: block;
+ }
+
+.content {
+    min-height: 40px;
+    margin-top: 15px;
+    width: 260px;
+    background-color: rgb(206, 203, 178);
+    border: 2px solid darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.members img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.title2 {
+    color: darkred;
+    font-size: xx-large;
+    font: bolder;
+    text-align: center;
+    margin-top: 37px;
+    background-color: rgb(206, 203, 178);
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+ }
+
+ .wiki {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(206, 203, 178);
+    flex-wrap: wrap;
+ }
+
+ .wiki1 h1 {
+    size: 21px;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+    margin-top: 110px;
+ }
+
+ 
+
+ .last {
+    background-color: darkred;
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: 280px;
+    justify-content: center;
+ }
+
+ .tbc img {
+    width: 140px;
+    height: 140px;
+    margin-top: 65px;
+    margin-left: 80px;
+ }
+
+ .last div {
+    justify-content: space-between;
+ }
+
+ .last p {
+    text-align: center;
+    font-size: larger;
+    color: rgb(102, 192, 248);
+    margin-top: 55px;
+ }
+
+ .last nav {
+    font-size: large;
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+   
+ }
+
+ .oo img {
+   
+    width: 330px;
+    height: 280px;
+ }
+
+
+ .icons img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 15px;
+ }
+
+ .icons {
+    margin-top: 89px;
+    
+ }
+
+ .albums img {
+    width: 350px;
+    height: 350px;
+    flex-wrap: wrap;
+ }
+
+
+ .albums ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 55px;
+    flex-wrap: wrap;
+ }
+
+
+ .albums h2 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+ .albums h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+
+ .d {
+   margin-right: 220px;
+ }
+
+
+ .e {
+    margin-right: 310px;
+ }
+ 
+
+ .f {
+    margin-right: 130px;
+ }
+ 
+
+ .g {
+    margin-right: 290px;
+  }
+ 
+ 
+  .h {
+     margin-right: 270px;
+  }
+  
+ 
+  .i {
+     margin-right: 0px;
+  }
+ 
+
+  .albums img:hover {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+
+.merchtext {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: xx-large;
+   padding-left: 65px;
+   margin-top: 75px;
+   background-color: rgb(206, 203, 178);
+   width: 100%;
+   height: 40px;
+}
+
+
+
+.categories img {
+    width: 260px;
+    height: 260px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+  }
+
+  .categories0 {
+    display: flex;
+    margin-top:70px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .content2 li {
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .categories .content2:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+ .content2 {
+    min-height: 40px;
+    margin-top: 15px;
+    width: 260px;
+    background-color: rgb(206, 203, 178);
+    border: 2px solid darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.content3 {
+    min-height: 40px;
+    margin-top: 15px;
+    width: 260px;
+    background-color: darkred;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.merch .content3:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.content3 li {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+ }
+
+
+ .content3 span {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 7px;
+ }
+
+
+ .merch img {
+    width: 260px;
+    height: 290px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+  }
+
+  .merch0 {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+  .all {
+    width: 100%;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 80PX;
+    flex-wrap: wrap;
+}
+
+.contact-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+button {
+    background-color: darkred;
+    width: 300px;
+    height: 59px;
+    color: #ffffff;
+    border-color: #000000; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+input {
+    background-color: beige;
+    width: 300px;
+    height: 59px;
+    color: #99999A;
+    border-style: outset;
+    border-color: #000000; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea {
+    color: #99999A;
+    background-color: beige;
+    width: 756px;
+    height: 298px;
+    border-style: outset;
+    border-color: #000000; 
+    justify-content: space-between;
+}
+
+.titlee {
+    color: darkred;
+    font-size: xx-large;
+    font: bolder;
+    text-align: center;
+    margin-top: 55px;
+    background-color: rgb(206, 203, 178);
+    width: 100%;
+    height: 70px;
+ }
+
+
+.lastt {
+    background-image: url(../images/last.jpg);
+    width: 100%;
+    height: 755px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 166px;
+    border: 10px solid darkred;
+}
+
+.lasttt {
+    background-image: url(../images/lasttt.jpg);
+    width: 100%;
+    height: 555px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 106px;
+    border: 10px solid rgb(0, 0, 0);
+}
+
+
+
+@media only screen and (max-width:400px) {
+    .mainlogo {
+      width: 90%;
+    }
+
+    .mainlogo2 {
+        width: 90%;
+      }
+
+    .last {
+        width: 100%;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width:740px) {
+    .wiki2 img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:810px) {
+    .wiki2 img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1076px) {
+
+    .background {
+        background-image: url(../images/);
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    
+    .lastt {
+        background-image: url(/images/);
+        border: 0px;
+        height: 10px;
+    }
+}
+
+
+@media only screen and (max-width:931px) {
+    
+    .lasttt {
+        background-image: url(/images/);
+        border: 0px;
+        height: 10px;
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+    .input {
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+    .button {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:858px) {
+    .last img {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width:858px) {
+    .texts  {
+        text-align: center;
+        justify-content: flex-end;
+    }
+}
+
